@@ -1,0 +1,32 @@
+<!-- Show user Phone Book-->
+<div id="phonebook" class="widget">
+  <div class="widgetTitle">User Phone Book</div>
+  <div class="sectionTitle">ME:</div>
+  <div class="nameSection" *ngIf="currentUser">
+    <div>Name: {{ currentUser.name }}</div>
+    <div>Phone: {{ getFormattedUserPhoneNumber(currentUser.phone) }}</div>
+  </div>
+
+  <div class="sectionTitle">OTHER USERS:</div>
+  <div #otherusers class="nameSection">
+    <div
+      *ngFor="let other of otherUsers"
+      (mouseover)="onHover($event, other)"
+      (mouseout)="onHoverExit($event, other)"
+    >
+      <div>Name: {{ other.name }}</div>
+      <div>Phone: {{ getFormattedUserPhoneNumber(other.phone) }}</div>
+    </div>
+  </div>
+</div>
+
+<!-- Show Demographics -->
+<div id="demographics" class="widget">
+  <highcharts-chart
+    [Highcharts]="Highcharts"
+    [callbackFunction]="chartCallback"
+    [options]="chartOptions"
+    style="width: 100%; height: 400px; display: block;"
+    [(update)]="updateFlag"
+  ></highcharts-chart>
+</div>

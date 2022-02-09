@@ -1,0 +1,17 @@
+[
+  {
+    "id": "id_a",
+    "name": "Bob",
+    "phone": "4804445555"
+  },
+  {
+    "id": "id_b",
+    "name": "Larry",
+    "phone": "609874565"
+  },
+  {
+    "id": "id_c",
+    "name": "Mary",
+    "phone": "4805553245"
+  }
+]

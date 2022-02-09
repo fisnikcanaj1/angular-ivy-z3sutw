@@ -1,0 +1,25 @@
+p {
+  font-family: Lato;
+}
+
+.widget {
+  border: black;
+  border-style: solid;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.widgetTitle {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.sectionTitle {
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.nameSection {
+  padding-left: 10px;
+  padding-top: 5px;
+}

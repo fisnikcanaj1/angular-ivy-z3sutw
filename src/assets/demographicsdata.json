@@ -1,0 +1,50 @@
+[
+  {
+    "state": "New York",
+    "city": "Rochester",
+    "year": 1990,
+    "population": 5000000
+  },
+  {
+    "state": "New York",
+    "city": "Rochester",
+    "year": 2000,
+    "population": 5500000
+  },
+  {
+    "state": "New York",
+    "city": "Rochester",
+    "year": 2010,
+    "population": 6000000
+  },
+  {
+    "state": "New York",
+    "city": "Rochester",
+    "year": 2020,
+    "population": 6500000
+  },
+  {
+    "state": "Arizona",
+    "city": "Phoenix",
+    "year": 1990,
+    "population": 90000
+  },
+  {
+    "state": "Arizona",
+    "city": "Phoenix",
+    "year": 2000,
+    "population": 1000000
+  },
+  {
+    "state": "Arizona",
+    "city": "Phoenix",
+    "year": 2010,
+    "population": 1100000
+  },
+  {
+    "state": "Arizona",
+    "city": "Phoenix",
+    "year": 2020,
+    "population": 12000000
+  }
+]
